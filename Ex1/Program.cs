@@ -33,4 +33,5 @@ int FindCount(int [] array)
 int [] array = CreateArray(10, 99, 1000);
 PrintArray(array);
 Console.WriteLine();
-Console.WriteLine (FindCount(array));
+int count = FindCount(array);
+Console.WriteLine ($"Количество четных чисел в массиве = {count}");
